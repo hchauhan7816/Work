@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(245, 176, 111);
+}
+
+
+.outer_box {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1.5vh 1.5vw;
+    width: 50%;
+    background-color: azure;
+}
+
+.outer_box>div {
+    padding: 0.4rem 0 0.4rem 0;
+}
+
+.outer_box>div:last-child {
+    padding-top: 1.4rem;
+}
+
+.outer_box>div>label {
+    padding-bottom: 0.4rem;
+}
+
+
+.btn {
+    /* display: inline-block; */
+    /* color: #333; */
+    /* background-color: #fff; */
+    /* font-size: 1.1rem; */
+    padding: 10px 40px;
+    /* font-weight: 500; */
+    /* line-height: 24px; */
+    border-radius: 18px;
+    /* border: none; */
+}

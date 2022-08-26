@@ -1,0 +1,49 @@
+.contain {
+    display: grid;
+    justify-content: center;
+}
+
+.contain>h1 {
+    text-align: center;
+}
+
+.contact-div {
+    max-width: 25rem;
+}
+
+.contact-div dl {
+    margin: 10px 0 10px 0;
+}
+
+.contact-div dt {
+    position: sticky;
+    top: 0px;
+
+    padding: 1.4rem;
+
+    /* background-color: rgba(gray, 0); */
+    background-color: rgba(144, 176, 196, 0.7);
+    /* border: 1px solid black; */
+    border-bottom: 0;
+}
+
+.contact-div dd {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    margin: 0;
+    padding: 1rem;
+    font-size: 0.9rem;
+    font-family: 'Courier New', Courier, monospace;
+    top: 0;
+    background-color: lavender;
+}
+
+/* .contact-div dd:last-of-type {
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+    top: 0;
+    background-color: rgb(226, 223, 223);
+} */

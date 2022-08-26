@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <br />
+    <fieldset>
+      <legend>Profile</legend>
+      <form action="/" method="POST">
+        <label for="user_name">Name</label>
+        <input type="text" id="user_name" />
+
+        <br /><br />
+
+        <label for="user_email">Email</label>
+        <input type="email" id="user_email" />
+
+        <br /><br />
+
+        <label for="user_dob">Date of Birth</label>
+        <input type="date" id="user_dob" />
+
+        <br /><br />
+
+        <label for="user_phone">Phone Number</label>
+        <input
+          type="tel"
+          name=""
+          id="user_phone"
+          maxlength="10"
+          minlength="10"
+        />
+        <br /><br />
+
+        <label for="user_gender">Gender</label>
+        <br />
+        <ul>
+          <li>
+            Male
+            <input type="radio" name="gender" id="user_gender" />
+          </li>
+          <li>
+            Female
+            <input type="radio" name="gender" id="user_gender" />
+          </li>
+        </ul>
+
+        <br /><br />
+      </form>
+    </fieldset>
+    <br /><br />
+    <fieldset>
+      <legend>More Details</legend>
+      <form action="/" method="POST">
+        <label for="user_color">Favourite Color</label>
+        <input type="color" id="user_color" />
+
+        <br /><br />
+
+        <label for="user_location">Preferred Location</label>
+        <select id="user_location">
+          <option value="">Delhi</option>
+          <option value="">Mumbai</option>
+          <option value="">Banglore</option>
+          <option value="">Hyderabad</option>
+          <option value="">Kolkata</option>
+          <option value="">DehraKolkatadun</option>
+        </select>
+
+        <br /><br />
+
+        <label for="user_feedback">Feedback</label>
+        <textarea name="" id="user_feedback" cols="30" rows="3"></textarea>
+        <br />
+        <br />
+      </form>
+    </fieldset>
+  </body>
+</html>

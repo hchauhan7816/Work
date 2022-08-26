@@ -1,0 +1,47 @@
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.2rem;
+
+    justify-content: space-around;
+}
+
+.content section {
+    min-width: 200px;
+    /* max-width: 400px; */
+    flex: 0 1 33%;
+}
+
+.first_article {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: center;
+
+    border: 1px solid black;
+}
+
+.content dt {
+    font-size: 1.7rem;
+    text-align: center;
+    padding: 2vh 2vw 2vh 2vw;
+}
+
+.content article {
+    padding: 2vh 1vw 2vh 1vw;
+    columns: 10em auto;
+    border: 1px solid;
+    hyphens: auto;
+}
+
+.content dd {
+    text-align: justify;
+    font-size: 0.75rem;
+    margin: 0;
+}
+
+.first_article img {
+    width: 20px
+}
